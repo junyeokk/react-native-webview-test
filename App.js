@@ -10,7 +10,7 @@ export default function App() {
   return (
     <WebView
       style={styles.container}
-      source={{ uri: "http://localhost:5173" }}
+      source={{ uri: "http://127.0.0.1:5173" }}
     />
   );
 }
